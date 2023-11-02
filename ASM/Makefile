@@ -31,6 +31,6 @@ clean:
 	rm -f Sully_*
 
 fclean: clean
-	rm  -f Colleen Grace Sully
+	rm -f Colleen Grace Sully
 
 re: fclean all
