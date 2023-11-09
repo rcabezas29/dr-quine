@@ -25,10 +25,15 @@ test: all
 	./Grace
 	diff Grace.c Grace_kid.c
 
+	mkdir sully_test
+	mv Sully sully_test
+	./sully_test/Sully
+
 clean:
 	rm -f $(COLLEEN_OBJS) $(GRACE_OBJS) $(SULLY_OBJS)
 	rm -f Grace_*.s
 	rm -f Sully_*
+	rm -rf sully_test
 
 fclean: clean
 	rm -f Colleen Grace Sully

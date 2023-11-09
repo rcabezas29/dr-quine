@@ -54,3 +54,6 @@ dkms.conf
 
 # OS Files
 .DS_Store
+
+Grace_kid*
+Sully_*
